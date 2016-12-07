@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "img": "<img src='img/services/webdev2.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/appdev.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/database.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/server.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/automation.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/video.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/photography.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    },{
+      "img": "<img src='img/services/branding.png'>",
+      "txt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada ullamcorper tortor. Praesent rhoncus, lectus cursus ultrices pulvinar, elit eros aliquam mi, sed aliquam urna leo nec nisi.<ul><li><span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span></li><li><span>Donec eu lorem tincidunt, ornare leo vitae, mollis tortor.</span></li><li><span>Quisque nec odio arcu.</span></li><li><span>Duis sed tincidunt velit.</span></li><li><span>Proin eget efficitur tellus.Integer dapibus elit lectus, a fermentum felis blandit ut.</span></li></ul></p>"
+    }
+  ]
+}

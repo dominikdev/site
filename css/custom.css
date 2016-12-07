@@ -1,0 +1,359 @@
+h2 {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a {
+	color: #D63636;
+}
+
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.49);
+	border: none;
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	font-size: 24px;
+	font-family: 'Changa One', cursive;
+}
+
+.navbar-brand>img {
+	max-height: 40px;
+	display: inline;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+	color: #d63636;
+	font-size: 22px;
+}
+
+header {
+	background-image: url('../img/bg-home.png');
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .header-content .header-content-inner p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+}
+
+hr {
+	border-color: #D63636;
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+	color: #FFFFFF;
+	background-color: #D63636;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+	background-color: #A92323;
+}
+
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+	color: #D63636!important;
+}
+
+.navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
+	color: #D63636!important;
+}
+
+.navbar-default.affix .nav>li>#btn-quote, .navbar-default.affix .nav>li>#btn-quote:focus {
+	/*color: #000000;*/
+    /*border: 1px solid #000000;*/
+}
+
+.btn-quote {
+	color: #FFFFFF;
+ /*   border: 1px solid #FFFFFF;
+    border-radius: 16px;*/
+    padding: 8px 10px;
+    margin: 8px 8px 0px;
+    font-size: 13px;
+}
+
+.bg-primary {
+	background-color: #D63636;
+}
+
+.text-primary {
+	color: #D63636;
+}
+
+.service-box p {
+	font-family: Lato,Calibri,Verdana,Arial,sans-serif;
+}
+
+.service-ico {
+    text-align:center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #D63636;
+    vertical-align: middle;
+}
+
+.service-ico img {
+    margin-top: 10px;
+}
+
+.service-head {
+    font-weight: bold;
+    color: #D63636;
+}
+
+.service-content-right {
+    padding: 20px 0px 50px 40px;
+    text-align: left;
+    min-height: 250px;
+    border-left: 2px solid #D63636;
+}
+
+.service-content-left {
+    padding: 20px 40px 50px 0px;
+    text-align: right;
+}
+
+
+
+.line {
+    min-height: 300px;
+    border-left: 2px solid #D63636;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+#about p {
+	font-family: Lato,Calibri,Verdana,Arial,sans-serif;
+	font-size: 19px;
+	text-rendering: optimizeLegibility;
+}
+
+#team {
+	background-color: #eee;
+}
+
+#portfolio {
+	/*background-color: #D63636;*/
+    background-color: #f9f9f9;
+	padding-bottom: 0px;
+}
+
+.showcase-row {
+	/*margin: 20px 0px;*/
+	padding-top: 20px;
+	border-bottom: 1px solid #D4D4D4;
+	/*box-shadow: 0 4px 20px -2px gray;*/
+}
+
+.portfolio-desc {
+	padding: 0px 80px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    font-family: Lato,Calibri,Verdana,Arial,sans-serif;
+	/*color: #FFFFFF;*/
+}
+
+.portfolio-desc h3 {
+	font-size: 28px;
+}
+
+.portfolio-desc h2 {
+    font-size: 18px;
+}
+
+.portfolio-item-category {
+    font-size: 18px;
+    text-align: center;
+    color: #8c8c8c;
+    margin-top: 60px;
+}
+
+section h2.section-heading {
+	font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+section h3.section-subheading {
+	font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p, section h3.section-subheading {
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+}
+
+.team-member {
+	text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-member img {
+	margin: 0 auto;
+    border: 7px solid #fff;
+    max-width: 275px;
+}
+
+.team-member h4 {
+	margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none
+}
+
+.team-member p {
+	margin-top: 0px;
+}
+
+.ul.social-buttons {
+	margin-bottom: 0;
+}
+
+.list-inline {
+	padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+	display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ul.social-buttons li a {
+	display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#testimonials {
+	background-image: url('../img/header.png');
+	background-size: cover;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 55px;
+}
+
+#quote-carousel .carousel-control.left {
+    left: -80px;
+}
+
+#quote-carousel .carousel-control.right {
+    right: -80px;
+}
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+blockquote .small, blockquote footer, blockquote small {
+	color: #FFFFFF;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.bold-off {
+	font-weight: normal;
+}
+
+.help-block {
+	font-size: 12px;
+}
+
+#contact {
+    background-image: url('../img/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 1px solid #CCCCCC;
+    color: #FFFFFF;
+}
