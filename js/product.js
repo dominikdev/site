@@ -167,12 +167,18 @@ $(document).on('click', '.port-box a', function() {
 });
 
 $(document).on('click', '.video-wrapper', function() {
+    
     $(".video-wrapper .overlay").addClass("hide");
     document.getElementById('services-vid').play();
 });
 $(document).ready(function() {
     webApp = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) ? false : true;
-
+    $('#header-animate').addClass('show');
+    $('.an-icon').addClass('red');
+    // setTimeout(function(){$('.an-icon.i1').removeClass('red');},2000);
+    // setTimeout(function(){$('.an-icon.i2').removeClass('red');},3000);
+    // setTimeout(function(){$('.an-icon.i3').removeClass('red');},4000);
+    setTimeout(function(){$('.an-icon').removeClass('red');},10000);
     if (!webApp) $('#vid-wrap').hide();
     $(document).on('scroll', function() {
         var pos = window.pageYOffset;
