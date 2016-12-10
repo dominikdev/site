@@ -155,10 +155,10 @@ section.swerv-sect {
 
 h3.service-head {
     font-size: 16px;
-    font-weight: 400;
-    color: #fff;
+    // font-weight: 400;
+    color: #333;
     text-align: left;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5em;
     LETTER-SPACING: 0.4px;
     text-align: left;
@@ -166,7 +166,8 @@ h3.service-head {
     border-left: 3px solid #D63636;
     border: none;
     text-align: center;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
     display: block !important;
 
     .small {
@@ -239,7 +240,7 @@ i.fa-mobile {
 }
 
 .navbar-brand > img {
-    width: 200px;
+    width: 150px;
     max-height: none;
 }
 
@@ -434,6 +435,7 @@ i.fa-mobile {
             top: 0 !important;
             left: 0 !important;
             border-radius: 0px;
+
         }
     }
 }
@@ -441,7 +443,7 @@ i.fa-mobile {
 #services.selected {
     background-color: #D63636;
     transition: all 1s 1.5s ease;
-
+    h1{color:#fff;}
     .service-content-right {
         opacity: 0.5;
 
@@ -560,6 +562,7 @@ i.fa-mobile {
         max-height: 1000px;
         padding: 100px 0;
         transition-delay: 0.5s;
+
     }
 }
 
@@ -1054,6 +1057,7 @@ footer {
                     bottom:50%;
                     opacity:1.0;
                     transition-delay:1s;
+                    text-decoration:none !important;
                     &.i2{transition-delay:1.6s;}
                     &.i3{transition-delay:2s;}
                     &.i4{transition-delay:2.5s;}
@@ -1079,6 +1083,7 @@ footer {
         box-sizing:border-box;
         -webkit-box-sizing:border-box;
         opacity:0.0;
+        text-decoration:none !important;
         i.fa{
             display:block;
         }
@@ -1244,7 +1249,8 @@ header {
     }
 
     h3.service-head {
-        color: #D63636;
+        // color: #D63636;
+        color: #333;
     }
 }
 
@@ -1333,6 +1339,7 @@ header {
         &.remove {
             transform: scale(0);
             width: 0;
+            height:0 !important;
         }
     }
 
@@ -1355,7 +1362,7 @@ header {
         }
 
         &.width img {
-            @bp-include width:100%;
+            @include bp-small{ width:100%;}
 
             height: auto;
         }

@@ -86,10 +86,9 @@ section.swerv-sect {
 
 h3.service-head {
   font-size: 16px;
-  font-weight: 400;
-  color: #fff;
+  color: #333;
   text-align: left;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.5em;
   LETTER-SPACING: 0.4px;
   text-align: left;
@@ -97,7 +96,7 @@ h3.service-head {
   border-left: 3px solid #D63636;
   border: none;
   text-align: center;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
   display: block !important; }
   h3.service-head .small {
     font-size: 16px;
@@ -140,7 +139,7 @@ i.fa-mobile {
   font-weight: 100 !important; }
 
 .navbar-brand > img {
-  width: 200px;
+  width: 150px;
   max-height: none; }
 
 #who-we-are h1 {
@@ -266,6 +265,8 @@ i.fa-mobile {
 #services.selected {
   background-color: #D63636;
   transition: all 1s 1.5s ease; }
+  #services.selected h1 {
+    color: #fff; }
   #services.selected .service-content-right {
     opacity: 0.5; }
     #services.selected .service-content-right h3.service-head, #services.selected .service-content-right i.fa {
@@ -645,7 +646,8 @@ footer {
       max-height: 1000px !important;
       bottom: 50%;
       opacity: 1.0;
-      transition-delay: 1s; }
+      transition-delay: 1s;
+      text-decoration: none !important; }
       .overlay-new #header-animate.show a.an-icon.i2 {
         transition-delay: 1.6s; }
       .overlay-new #header-animate.show a.an-icon.i3 {
@@ -668,7 +670,8 @@ footer {
   padding: 20px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  opacity: 0.0; }
+  opacity: 0.0;
+  text-decoration: none !important; }
   .overlay-new a.an-icon i.fa {
     display: block; }
   .overlay-new a.an-icon.show {
@@ -770,7 +773,7 @@ header .overlay-new {
   #services .ic-wrap i.fa {
     color: #D63636; }
   #services h3.service-head {
-    color: #D63636; }
+    color: #333; }
 
 #portfolio {
   font-family: 'Mallanna', sans-serif;
@@ -828,7 +831,8 @@ header .overlay-new {
       opacity: 0.5; }
     #portfolio div.port-box-wrap.remove {
       transform: scale(0);
-      width: 0; }
+      width: 0;
+      height: 0 !important; }
   #portfolio div.port-box {
     width: 100%;
     height: 350px;
@@ -843,8 +847,10 @@ header .overlay-new {
       height: 100%;
       width: auto; }
     #portfolio div.port-box.width img {
-      @bp-include width:100%;
       height: auto; }
+      @media only screen and (max-width: 480px) {
+        #portfolio div.port-box.width img {
+          width: 100%; } }
     #portfolio div.port-box img {
       position: absolute;
       /* transform: scale(1.8); */

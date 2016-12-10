@@ -1,4 +1,5 @@
 var serviceInfo;
+var clic = "one";
 onSubmitForm = function() {
     var canSubmit = true;
     var dataToSub = {};
@@ -54,7 +55,7 @@ sendContactForm = function(fInfo, url, cb) {
 };
 getServiceData = function() {
     $.getJSON("js/data.json", function(json) {
-        serviceInfo =  json.services;
+        serviceInfo = json.services;
     });
 }
 $('.fadein').each(function(i) {
@@ -143,7 +144,7 @@ $(document).on('click', '.port-sort-btn', function() {
     }, 1000);
 });
 $(document).on('click', '.port-box a', function() {
-    console.log('fdsf');
+    clic = $(this).attr('slide');
     var i = $(this).attr('site-img');
     var l = $(this).attr('site-link');
     setTimeout(function() {
@@ -167,7 +168,7 @@ $(document).on('click', '.port-box a', function() {
 });
 
 $(document).on('click', '.video-wrapper', function() {
-    
+
     $(".video-wrapper .overlay").addClass("hide");
     document.getElementById('services-vid').play();
 });
@@ -178,19 +179,21 @@ $(document).ready(function() {
     // setTimeout(function(){$('.an-icon.i1').removeClass('red');},2000);
     // setTimeout(function(){$('.an-icon.i2').removeClass('red');},3000);
     // setTimeout(function(){$('.an-icon.i3').removeClass('red');},4000);
-    setTimeout(function(){$('.an-icon').removeClass('red');},10000);
+    setTimeout(function() {
+        $('.an-icon').removeClass('red');
+    }, 10000);
     if (!webApp) $('#vid-wrap').hide();
     $(document).on('scroll', function() {
         var pos = window.pageYOffset;
         var ser = $('#services').position().top - 100;
-        console.log('pos: '+ pos);
-        console.log('ser: '+ser);
+        // console.log('pos: '+ pos);
+        // console.log('ser: '+ser);
         if (pos >= ser) {
             $('.ic-wrap').addClass('show');
-        }else if ( pos < (ser+100) && $('#service-info').hasClass('expanded')){
-        	// $('#close').click();
-        	$('.service-content-right.selected, #services').removeClass('selected');
-    	$('#service-info, #services .overlay').removeClass('expanded');
+        } else if (pos < (ser + 100) && $('#service-info').hasClass('expanded')) {
+            // $('#close').click();
+            // $('.service-content-right.selected, #services').removeClass('selected');
+            // $('#service-info, #services .overlay').removeClass('expanded');
         }
 
     });

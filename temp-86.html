@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="lightgallery/js/lightgallery.js"></script>
+	<script async src="https://cdn.jsdelivr.net/g/lightgallery,lg-autoplay,lg-fullscreen,lg-hash,lg-pager,lg-share,lg-thumbnail,lg-video,lg-zoom"></script>
+	<link type="text/css" rel="stylesheet" href="lightgallery/css/lightGallery.css" />
+	<style type="text/css">
+		#lightgallery a img {
+			display: block;
+			float: left;
+			width: 25%;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#lightgallery").lightGallery();
+		});
+	</script>
+</head>
+
+<body>
+<section id="item-1">
+	<div id="lightgallery">
+		<a href="img/portfolio/port13.png">
+			<img src="img/dd/meal-mockup2.png">
+		</a>
+		<a href="img/dd/port-1.png">
+			<img src="img/dd/port-1.png">
+		</a>
+	</div>
+</section>
+</body>
+
+</html>

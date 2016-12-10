@@ -1,0 +1,68 @@
+#lightgallery a img {
+  display: block;
+  float: left;
+  width: 50%; }
+
+.banner {
+  position: relative;
+  max-height: 80vh;
+  overflow: hidden; }
+  .banner ul li img {
+    width: 100%; }
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  right: 25px;
+  border-radius: 0;
+  margin: 0;
+  z-index: 99; }
+
+#site-link {
+  background: #D63636;
+  border-color: #D63636;
+  border-radius: 0;
+  font-size: 16px; }
+  #site-link:hover {
+    opacity: 0.75; }
+
+.p-sect {
+  display: none; }
+
+.unslider {
+  position: relative; }
+
+.unslider-nav {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  transform: scale(2); }
+
+.unslider-arrow.next {
+  height: 100%;
+  width: 60px;
+  right: 0;
+  top: 0;
+  background: url(../img/arrow-right.svg) no-repeat center rgba(0, 0, 0, 0.25);
+  background-size: 50px;
+  color: transparent;
+  opacity: .6; }
+  .unslider-arrow.next:hover {
+    opacity: 1.0; }
+
+.unslider-arrow.prev {
+  height: 100%;
+  width: 60px;
+  left: 0;
+  top: 0;
+  background: url(../img/arrow-left.svg) no-repeat center rgba(0, 0, 0, 0.1);
+  background-size: 50px;
+  color: transparent;
+  opacity: .6; }
+  .unslider-arrow.prev:hover {
+    opacity: 1.0; }
+
+/*# sourceMappingURL=portstyle.css.map */
